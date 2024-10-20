@@ -10,7 +10,7 @@ const TaskForm = ({ showModal, setShowModal, newTask, setNewTask, handleAddTask,
             <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                 <div className="bg-white p-6 rounded-lg shadow-lg w-96">
                     <div className="flex justify-between items-center mb-4">
-                        <h2 className="text-2xl font-semibold">{isEditing ? "Edit Task" : "Add a New Task"}</h2>
+                        <h2 className="text-2xl text-black font-semibold">{isEditing ? "Edit Task" : "Add a New Task"}</h2>
                         <button onClick={() => setShowModal(false)} className="text-red-500 text-xl">
                             <AiOutlineClose />
                         </button>

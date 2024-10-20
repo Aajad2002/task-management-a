@@ -35,7 +35,7 @@ const TaskList = ({
                     className={`p-5 rounded-lg bg-white shadow-md transition-transform transform hover:scale-[1.01] flex flex-wrap justify-between items-start`}
                 >
                     <div className="flex-1">
-                        <h3 className="text-lg font-semibold flex items-center">
+                        <h3 className="text-lg text-black font-semibold flex items-center">
                             {task.completed && (
                                 <AiOutlineCheckCircle className="text-green-500 mr-2" />
                             )}
@@ -52,7 +52,7 @@ const TaskList = ({
                     <div className="flex items-center justify-between w-full sm:w-auto sm:justify-normal space-x-3">
                         {/* Toggle Switch */}
                         <label className="flex items-center cursor-pointer">
-                            <span className="mr-2">{!task.completed ? "Pending" : "Completed"}</span>
+                            <span className="mr-2 text-black">{!task.completed ? "Pending" : "Completed"}</span>
                             <div className="relative">
                                 <input
                                     type="checkbox"

@@ -223,7 +223,7 @@ export default function Home() {
   }, [tasks, filters, sortOrder, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 p-6 text-black">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
           Task Management App
